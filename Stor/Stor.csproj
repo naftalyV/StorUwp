@@ -95,6 +95,11 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\20170703140830_First.cs" />
+    <Compile Include="Migrations\20170703140830_First.designer.cs">
+      <DependentUpon>20170703140830_First.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\CarsContextModelSnapshot.cs" />
     <Compile Include="Services\CarsContext.cs" />
     <Compile Include="Services\DataManager.cs" />
     <Compile Include="Models\Car.cs" />
