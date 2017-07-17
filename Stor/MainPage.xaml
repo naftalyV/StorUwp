@@ -24,9 +24,10 @@
                 SuggestionChosen="AutoSuggestBox_SuggestionChosen"
                    RelativePanel.AlignRightWithPanel="True"
                               />
+                <Button Content="&#xE700;" FontFamily="Segoe MDL2 Assets" FontSize="36" RelativePanel.AlignLeftWithPanel="True"/>
+            
             </RelativePanel>
-
-
+          
         </Grid>
     </Grid>
 </Page>

@@ -34,7 +34,7 @@ namespace Stor.ViewModel
 
             InsertCommand = new RelayCommand(() =>
             {
-                var NewCar = new Car() {  Firm = "Mazda", Model = "" };
+                var NewCar = new Car() {  Firm = "Mazda", Model = "M5" };
                 _dataManager.Insert(NewCar);
                 Cars.Add(NewCar);
 

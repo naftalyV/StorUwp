@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore;
+using Stor.Services;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -30,6 +32,10 @@ namespace Stor
         {
             this.InitializeComponent();
             this.Suspending += OnSuspending;
+            using (var db = new CarsContext())
+            {
+                db.Database.Migrate();
+            }
         }
 
         /// <summary>

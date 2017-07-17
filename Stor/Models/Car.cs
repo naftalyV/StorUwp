@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Stor
 {
- public   class Car
+    public class Car
     {
         public int Id { get; set; }
         public string Firm { get; set; }
